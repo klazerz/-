@@ -1,0 +1,259 @@
+        .card-lexa {
+  display: flex;
+  gap: 30px;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Левая часть */
+.left {
+  width: 35%;
+  text-align: left;
+}
+
+.name {
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: #ff4d4d;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.info-short p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+/* Правая часть */
+.right {
+  width: 65%;
+}
+
+.right h3 {
+  margin-top: 0;
+  color: #ff4d4d;
+}
+
+.right p {
+  line-height: 1.6;
+}
+
+.right ul {
+  padding-left: 20px;
+}
+
+.right li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  .card-lexa {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .avatar {
+    max-width: 300px;
+    margin: 0 auto 15px;
+    display: block;
+  }
+
+  .info-short {
+    text-align: center;
+  }
+
+  .right h3 {
+    text-align: center;
+  }
+}
+
+        .card-sasha {
+  display: flex;
+  gap: 30px;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Левая часть */
+.left1 {
+  width: 35%;
+  text-align: left;
+}
+
+.name1 {
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: yellow;
+}
+
+.avatar1 {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.info-short1 p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+/* Правая часть */
+.right1 {
+  width: 65%;
+}
+
+.right1 h3 {
+  margin-top: 0;
+  color: yellow;
+}
+
+.right1 p {
+  line-height: 1.6;
+}
+
+.right1 ul {
+  padding-left: 20px;
+}
+
+.right1 li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  .card-sasha {
+    flex-direction: column;
+  }
+
+  .left1,
+  .right1 {
+    width: 100%;
+  }
+
+  .name1{
+    text-align: center;
+  }
+
+  .avatar {
+    max-width: 300px;
+    margin: 0 auto 15px;
+    display: block;
+  }
+
+  .info-short1 {
+    text-align: center;
+  }
+
+  .right1 h3 {
+    text-align: center;
+  }
+}
+
+
+
+        .card-maksim {
+  display: flex;
+  gap: 30px;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Левая часть */
+.left2 {
+  width: 35%;
+  text-align: left;
+}
+
+.name2 {
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: purple;
+}
+
+.avatar2 {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.info-short2 p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+/* Правая часть */
+.right2 {
+  width: 65%;
+}
+
+.right2 h3 {
+  margin-top: 0;
+  color: purple;
+}
+
+.right2 p {
+  line-height: 1.6;
+}
+
+.right2 ul {
+  padding-left: 20px;
+}
+
+.right2 li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  .card-maksim {
+    flex-direction: column;
+  }
+
+  .left2,
+  .right2 {
+    width: 100%;
+  }
+
+  .name2{
+    text-align: center;
+  }
+
+  .avatar {
+    max-width: 300px;
+    margin: 0 auto 15px;
+    display: block;
+  }
+
+  .info-short2 {
+    text-align: center;
+  }
+
+  .right2 h3 {
+    text-align: center;
+  }
+}
